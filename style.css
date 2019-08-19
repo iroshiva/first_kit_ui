@@ -1,0 +1,285 @@
+
+/* css du html.index */
+
+/* POUR TOUT LE MONDE */
+
+/**{
+	margin: 0 auto;
+}*/
+
+.atom{
+	margin-top: 70px;
+	margin-left: 50px;
+	margin-bottom: 120px;
+}
+
+.txt{
+	margin-bottom: 40px;
+}
+
+/* COLORS */
+
+.color-box{
+  padding: 10px ;
+  border: 1px solid black ;
+  height: 30px;
+  width: 100px;
+}
+
+.color-line{
+	width: 110px;
+	text-align: center;
+	margin-left: 50px;
+}
+
+.atom-color{
+	 display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 800px;
+	margin-bottom: 25px;
+}
+
+.color-txt span{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.primary{
+	background-color: #3F6B8C;
+}
+
+.secondary{
+	background-color: #1D3242
+}
+
+.grey-dark{
+	background-color: #666666;
+}
+
+.grey-medium{
+	background-color: #b3b3b3;
+}
+
+.grey-light{
+	background-color: #e6e6e6;
+}
+
+.warning{
+	background-color: #ffaf1a;
+}
+
+.danger{
+	background-color: #ff3300;
+}
+
+.success{
+	background-color: #2eb82e;
+}
+
+.info{
+	background-color: #3399ff;
+}
+
+/* TYPOGRAPHY */
+
+.typo-bal{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	height: 50px;
+	width: 100px;
+	color: #8c8c8c;
+}
+
+.typo-line{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 700px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+	margin-left: 50px;
+	margin-bottom: 10px;
+
+}
+
+.typo-para{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 1000px;
+    font-family: 'Raleway', sans-serif;
+	margin-left: 50px;
+}
+
+.typo-block{
+	/*display: block;*/
+	border: 2px;
+	border-color: #162E40;
+	font-family: 'Raleway', sans-serif;
+  /*margin-top: 1em;*/
+  /*margin-bottom: 1em;*/
+  margin-left: 40px;
+ /* margin-right: 40px;*/
+}
+
+/*.blockquote p {
+    padding: 15px;
+    background: #162E40;
+    border-radius: 5px;
+    border-color: #162E40;
+}*/
+
+
+/* BUTTONS */
+
+	/* CLASSIQUES */
+
+.btn-line{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 900px;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+.btn{
+	border: 0px;
+  height: 40px;
+  padding: 0 15px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1D3242;
+}
+
+.btn-primary:hover {
+    background-color: #3F6B8C;
+}
+
+.btn-warning{
+    color: #fff;
+    background-color: #e69500;
+}
+
+.btn-warning:hover {
+    background-color: #ffaf1a;
+}
+
+.btn-danger{
+    color: #fff;
+    background-color: #cc2900;
+}
+
+.btn-danger:hover {
+    background-color: #ff3300;
+}
+
+.btn-success{
+    color: #fff;
+    background-color: #248f24;
+}
+
+.btn-success:hover {
+    background-color: #2eb82e;
+}
+/*.btn-primary:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+*/
+
+
+	/* OUTLINES */
+
+.out-primary {
+		border: 1px #1D3242 solid;
+    color: #1D3242;
+    background-color: #fff;
+}
+.out-primary:hover {
+    background-color: #1D3242;
+    color: #fff;
+    border: 1px #3F6B8C;
+}
+
+.out-warning {
+		border: 1px #e69500 solid;
+    color: #e69500;
+    background-color: #fff;
+}
+.out-warning:hover {
+    background-color: #e69500;
+    color: #fff;
+    border: 1px #e69500;
+}
+
+.out-danger {
+		border: 1px #cc2900 solid;
+    color: #cc2900;
+    background-color: #fff;
+}
+.out-danger:hover {
+    background-color: #cc2900;
+    color: #fff;;
+    border: 1px #cc2900;
+}
+
+.out-success {
+		border: 1px #248f24 solid;
+    color: #248f24;
+    background-color: #fff;
+}
+.out-success:hover {
+    background-color: #248f24;
+    color: #fff;
+    border: 1px #248f24;
+}
+
+
+	/* SMALL */
+
+.btn-sm{
+	border: 0px;
+  height: 35px;
+  padding: 0 10px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+ /*  BIG */
+
+ .btn-lg{
+	border: 0px;
+  height: 50px;
+  padding: 0 15px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+/* ICONE */
+
+.ico-line{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 500px;
+  font-style: normal;
+	margin-left: 50px;
+	margin-bottom: 60px;
+}
+
+.size{
+	font-size: 2.5em;
+	color: #423117;
+}
