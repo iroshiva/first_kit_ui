@@ -275,11 +275,53 @@
 	justify-content: space-between;
 	width: 500px;
   font-style: normal;
-	margin-left: 50px;
+	margin-left: 100px;
 	margin-bottom: 60px;
 }
 
 .size{
 	font-size: 2.5em;
-	color: #423117;
+	color: #3399ff;
+}
+
+
+/* FROMULAIRES */
+
+.form-line{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 1000px;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+.form-txt{
+	border: 2px #e6e6e6 solid;
+  height: 25px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.form-txt:hover{
+	border: 1px #3F6B8C solid;
+}
+
+.ratio{
+	color: black;
+}
+
+.champ{
+	margin-bottom: 20px;
+}
+
+.texta{
+	border: 2px #e6e6e6 solid;
+	border-radius: 10px;
+}
+
+.texta:hover{
+	border: 1px #3F6B8C solid;
 }
